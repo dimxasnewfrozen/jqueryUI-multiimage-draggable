@@ -1,0 +1,129 @@
+body
+{
+	margin:25px;
+}
+.photo_helper
+{
+    padding: 2px;
+    border: 1px solid #C8C8C8;
+    background-color: #FFF;
+    float: left;
+    width:90px;
+}
+ 
+#photoHelper
+{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+ 
+#photo_helper1
+{
+    transform:rotate(-5deg);
+    -ms-transform:rotate(-5deg); 		/* IE 9 */
+    -moz-transform:rotate(-5deg);  		/* Firefox */
+    -webkit-transform:rotate(-5deg); 	/* Safari and Chrome */
+    -o-transform:rotate(-5deg); 		/* Opera */
+    position: absolute;
+    margin-left: -5px;
+}
+ 
+#photo_helper2
+{
+    transform:rotate(5deg);
+    -ms-transform:rotate(5deg); 	/* IE 9 */
+    -moz-transform:rotate(5deg); 	/* Firefox */
+    -webkit-transform:rotate(5deg); /* Safari and Chrome */
+    -o-transform:rotate(5deg); 		/* Opera */
+    position: absolute;
+    margin-left: 25px;
+}
+
+ 
+#photo_helper3
+{
+    margin-top: 10px;
+    margin-left:5px;
+    position: absolute;
+     
+}
+
+.image_list 
+{
+	margin:0px;
+	padding:0px;
+	list-style: none;
+}
+
+.image_list .image_item
+{
+	width:90px;
+	height:auto;
+	background-color: white;
+	border:1px solid #DEDEDE;
+	padding:5px;
+}
+
+.image_list li
+{
+
+	margin:5px;
+	float:left;
+}
+
+
+.image_list li .thumbnail 
+{
+	width:100%;
+}
+
+.image_list label
+{
+	font-size:14px;
+	border:1px solid #E0E0E0;
+	width:100%;
+	display: inline-block;
+	margin-top: 5px;
+	background-color: #F2F2F2;
+}
+
+.image_list label input
+{
+	margin:2px;
+}
+
+.drop_div
+{
+	width:250px; 
+	float:left; 
+}
+
+.drop_div ul
+{
+	list-style: none;
+	margin:0px;
+	margin-right: 10px;
+	padding:0px;
+	width:220px;
+}
+
+.drop_div ul li
+{
+	width:100%;
+	height:20px;
+	border:1px solid #0A4380;
+	margin-bottom:10px;
+	font-size:20px;
+	padding:15px;
+	background-color:#3289E6;
+	color:white;
+}
+
+.drop_div ul li.active {
+	background-color: #1C5FA6;
+}
+
+#selected_num
+{
+	font-weight: bold;
+}
